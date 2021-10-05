@@ -1,3 +1,5 @@
+// java class
+
 class LinkedList {
  
     static Node head;
@@ -28,8 +30,7 @@ class LinkedList {
         node = prev;
         return node;
     }
- 
-   
+ //print list 
     void printList(Node node)
     {
         while (node != null) {
@@ -38,7 +39,7 @@ class LinkedList {
         }
     }
  
- 
+ //main
     public static void main(String[] args)
     {
         LinkedList list = new LinkedList();
